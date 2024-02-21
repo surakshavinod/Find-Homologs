@@ -8,7 +8,7 @@ tblastn \
   -query $query_seq \
 	-subject $genome_assembly \
 	-outfmt '6 std qlen' \
-	-task tblastn-fast \
+	-task tblastn \
 	| awk '$3>30 && $4>0.9*$13' > $outfile
 	
 echo "$(wc -l $outfile | cut -d' ' -f1) matches found in $genome_assembly"
