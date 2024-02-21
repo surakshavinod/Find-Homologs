@@ -3,7 +3,7 @@ Given a protein sequence query, the script performs a blast search against a nuc
 
 # Usage
 ### Create a conda environment
-````
+```
 conda create -n new_env
 conda activate new_env
 conda install -c bioconda blast
