@@ -1,5 +1,5 @@
 # Description
-Given a protein sequence query, the script performs a blast search against a nucleotide subject, filters hits to keep only hits with >30% sequence identity and >90% match length (90% of the query sequence length) and prints the number of matches identified.
+Given a protein sequence query, the script performs a blast search against a nucleotide subject, filters hits to keep only hits with >30% sequence identity and >90% match length (i.e., 90% of the query sequence length) and prints the number of matches identified.
 
 # Usage
 ### Create a conda environment
